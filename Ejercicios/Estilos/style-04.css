@@ -1,0 +1,35 @@
+*{
+    background-color: #abc8e0;
+}
+
+h1{
+    text-align: center;
+    color: #243c4e;
+    text-transform: uppercase;
+}
+
+#ej_txt{
+    background-color: #6195c2;
+}
+
+h2{
+    background-color: #4f799e;
+    color: #2a4155;
+    text-decoration: underline!important;
+    text-decoration: solid;
+}
+
+#correo{
+    background-color: white;
+    color: black;
+    text-align: right;
+}
+
+#correo_titulo{
+    font-style: italic;
+    background-color: white;
+}
+
+.decor_basic {
+    background-color: #92c3ee!important;
+}
