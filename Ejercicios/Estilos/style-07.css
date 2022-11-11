@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(235, 235, 235);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+}
+
+.txt_ejem{
+    background-color: rgb(170, 170, 170);
+}
+
+h2{
+    background-color: gray;
+    color: red;
+}
+
+i{
+    color: blue;
+    text-decoration: underline!important;
+    font-style: normal!important;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+strong{
+    color: green;
+    font-style: normal;
+}
+
+.txt_decor{
+    background-color: lightgray;
+}
