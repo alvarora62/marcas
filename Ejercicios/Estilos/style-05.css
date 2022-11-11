@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(196, 196, 196);
+    text-align: justify;
+}
+
+.basic_decor{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h2{
+    text-align: left;
+}
+
+.titulo{
+    margin: 3%;
+    color:white;
+    background-color: gray!important;
+    outline-color: rgb(117, 117, 117)!important;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.texto{
+    margin-top: 3%;
+    text-indent: 5%;
+}
+
+.texto_{
+    text-indent: 5%;
+    margin-left: 10%;
+}
+
+img{
+    float: left;
+}
+
+figcaption{
+    color: lightgray;
+}
