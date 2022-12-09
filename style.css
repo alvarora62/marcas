@@ -1,5 +1,7 @@
-*{
+body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(img/fondo.jfif);
+    background-repeat: no-repeat;
 }
 
 div{
