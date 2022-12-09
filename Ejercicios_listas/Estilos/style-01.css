@@ -1,0 +1,15 @@
+*{
+    list-style-position: outside;
+}
+
+.de_fuera{
+    list-style-type: disc;
+}
+
+.de_dentro{
+    list-style-type: circle;
+}
+
+.numero2{
+    list-style-type: none;
+}
