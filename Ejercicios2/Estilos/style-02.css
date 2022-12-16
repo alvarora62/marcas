@@ -1,0 +1,6 @@
+table{
+    border: 2px groove coral;
+}
+tr:hover{
+    background-color: orange;
+}
