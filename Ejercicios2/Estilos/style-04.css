@@ -1,6 +1,48 @@
+body{
+    background-color: bisque;
+}
+
 #lista_1 li{
-    display:block;
+    display:inline;
+    float:left;
+    padding:0 10px;  
+    background-color: antiquewhite;
+}
+
+#lista_2 li{
+    display:inline;
     float:left;
     padding:0 10px;
-    margin: 15px;
+    background-color: rgb(202, 255, 237);
+    border: 2px dashed rgb(179, 0, 179);
+    color: rgb(179, 0, 179);
+    margin-left: 10px;
+    text-align: center;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#lista_3 li{
+    display:inline;
+    float:left;
+    padding:0 10px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#lista_4 li{
+    display:inline;
+    float:left;
+    padding:0 10px;
+}
+
+#lista_5 li{
+    display:inline;
+    float:left;
+    padding:0 10px;
 }
