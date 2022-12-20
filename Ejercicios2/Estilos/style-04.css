@@ -27,8 +27,6 @@ body{
     display:inline;
     float:left;
     padding:0 10px;
-    background-color: white;
-    color: blue;
     text-align: center;
     width: 150px;
     padding-top: 15px;
@@ -36,9 +34,44 @@ body{
 }
 
 #lista_4 li{
+    text-align: center;
+    width: 130px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
     display:inline;
     float:left;
     padding:0 10px;
+}
+
+.d{
+    background-color: rgb(134, 221, 255);
+    border-top: black solid;
+    border-bottom: black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.c{
+    border-top: black solid;
+    border-bottom: black solid;
+}
+
+#izquierda{
+    border-left: black solid;
+}
+
+#derecha{
+    border-right: black solid;
+}
+
+.a{
+    background-color: white;
+    color: blue;
+}
+
+.b{
+    background-color: blue;
+    color: white;
 }
 
 #lista_5 li{
