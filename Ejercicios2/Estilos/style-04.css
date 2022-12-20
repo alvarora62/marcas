@@ -75,7 +75,34 @@ body{
 }
 
 #lista_5 li{
+    text-align: center;
     display:inline;
     float:left;
-    padding:0 10px;
+    padding:10px;
+}
+
+#pos1{
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+#pos2{
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+
+#pos3{
+    border-bottom: black solid 1px;
+}
+
+#pos4{
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+
+#pos5{
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
 }
