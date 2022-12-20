@@ -106,3 +106,39 @@ body{
     border-right: black solid 1px;
     border-bottom: black solid 1px;
 }
+
+#lista_6 li{
+    display:inline;
+    padding:10px;
+}
+
+.separador{
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+
+#lista_7 li{
+    list-style: none;
+    background-color: rgb(255, 243, 228);
+    width: 130px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#lista_8{
+    border: black solid 1px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+#lista_8 li{
+    list-style: none;
+    background-color: rgb(255, 243, 228);
+    width: 130px;
+    height: 20px;
+    margin-top: 5px;
+    border: black solid 1px;
+    text-align: center;
+    padding: 2px;
+}
