@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+}
+
+.Encabezado{
+    color: white;
+    background-color: #6b96ec;
+}
+
+.Provincia{
+    color: #f3f739;
+    background-color: #6b96ec;
+}
+
+.datos{
+    background-color: #e98d64;
+}
