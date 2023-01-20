@@ -1,0 +1,66 @@
+/*
+#one{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    float: left;
+    margin: 3px;
+}
+
+#two{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+#three{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    float: left;
+    margin: 3px;
+}
+
+#four{
+    
+    position: relative;
+    top: 50px;
+    left: 50px;
+    float: left;
+    margin: 3px;
+}
+*/
+.box{
+    position: relative;
+    left: 200px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+#two{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+}
+
+.box2{
+    position: relative;
+    top: 500px;
+    left: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+#six{
+    position: fixed;
+    top: 530px;
+    left: 350px;
+    background-color: blue;
+}
