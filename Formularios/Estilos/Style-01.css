@@ -1,0 +1,35 @@
+form{
+    background-color: #eab676;
+}
+
+fieldset{
+    border-color: rgb(153, 0, 0);
+    color: rgb(194, 3, 3);
+}
+
+input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: rgb(194, 3, 3);
+}
+
+input[type=radio]{
+    color: black;
+}
+
+input[type=submit]{
+    background-color: rgb(153, 0, 0);
+    color: white;
+    height: 35px;
+    width: 75px;
+    color: rgb(194, 3, 3);
+}
+
+input[type=reset]{
+    background-color: rgb(153, 0, 0);
+    color: white;
+    height: 35px;
+    width: 75px;
+    color: rgb(194, 3, 3);
+}
