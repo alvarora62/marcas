@@ -32,7 +32,7 @@ footer {
 }
 
 header, section, nav, footer { 
-    border: solid;
+    border: solid 1px;
 }
 
 #imagen{

@@ -6,6 +6,11 @@ nav {
     background-image: url(nav.png);
 }
 
+ul{
+    color: white;
+    list-style: georgian;
+}
+
 
 section {
     background-image: url(tocho.png);
@@ -15,4 +20,6 @@ footer {
     background-image: url(footer.png);
     color: white;
     border-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
