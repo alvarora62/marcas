@@ -6,6 +6,7 @@ h1{
 
 fieldset{
     border: dashed 4px blue;
+    padding: 20px;
 }
 
 legend{
@@ -26,4 +27,35 @@ legend{
 
 input[type="number"]{
     width: 40px;
+}
+
+div.edad{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+div.habitaciones{
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+div.sex{
+    float: left;
+    margin-bottom: 10px;
+}
+
+div.tele{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 330px;
+}
+
+div.cajas{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+input[type=checkbox]{
+    margin-right: 25px;
 }
