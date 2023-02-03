@@ -3,4 +3,20 @@ header{
     font-style: oblique;
     font-size: x-large;
     text-align: center;
+    background-image: element(fondo.png);
+}
+
+nav{
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    font-weight: bold;
+    text-align: center;
 }

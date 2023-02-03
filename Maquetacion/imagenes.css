@@ -1,0 +1,18 @@
+header {
+    background-color: aqua;
+}
+
+nav {
+    background-image: url(nav.png);
+}
+
+
+section {
+    background-image: url(tocho.png);
+}
+
+footer {
+    background-image: url(footer.png);
+    color: white;
+    border-color: black;
+}
