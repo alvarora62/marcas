@@ -1,0 +1,33 @@
+fieldset{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B9DBF6;
+}
+
+*{
+    margin-bottom: 5px;
+}
+
+input[type=text]{
+    width: 97%;
+    height: 20px;
+}
+
+select{
+    height: 68px;
+    width: 97%;
+}
+
+input[type=text]#mensaje{
+    height: 80px;
+}
+
+div{
+    display: inline-block;
+}
+
+#aviso{
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+    <meta charset="UFT-8">
+        <link rel="stylesheet" href="Estilos/Style-04.css">
+  </head>
+
+  <body>
+    
+    <form action="archivo.php" method="get">
+
+        <fieldset>
+        Nombre: <br><input name="nombre" type="text" placeholder="Escribe tu nombre"> <br>
+        Email: <br><input type="text" placeholder="correo@empresa.com"> <br>
+       
+        Asunto <br>
+        <select name="Asunto" size="3">
+          <option value="presupuesto">Pedir presupuesto web</option>
+          <option value="cita">Solicitar cita previa</option>
+          <option value="Otros">Otros</option>
+        </select>
+        <br>
+
+
+
+        <br>¿Cómo nos has conocido? <br>
+        <input type="checkbox" id="amigo" name="conocer" value="en_cama">
+        <label for="amigo">Un amigo</label>
+        <input type="checkbox" id="google" name="conocer" value="en_cama">
+        <label for="google">En google</label>
+        <input type="checkbox" id="buzon" name="conocer" value="en_cama">
+        <label for="buzon">En el buzón</label>
+        <input type="checkbox" id="otros" name="conocer" value="en_cama">
+        <label for="otros">otros</label>
+
+        <br>
+        Escribe tu mensaje <br><input type="text" id="mensaje"> <br>
+        <br>
+        
+        <input type="checkbox" id="TerminosCondiciones" name="TerminosCondiciones" value="en_cama">
+        <label for="TerminosCondiciones">He leído y acepto el <div id="aviso">aviso legal y la politica de privacidad</div>.</label><br>
+        <br>
+        <br>
+        
+        <input type="submit" value="Enviar Consulta">
+
+        </fieldset>
+    </form>
+  </body>
+</html>
