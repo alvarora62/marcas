@@ -1,3 +1,41 @@
+nav{
+    font-family: 'Raleway';
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+  
+nav ul{
+    list-style: none;
+    width: 90%;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 10%;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+  
+.nav-lista li a:hover {
+    color: black;
+}
+
+.nav_fondo {
+    background-color: rgb(233, 0, 0);
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
 header {
     background-image: url("../Imagenes/header.png");
     font-family: 'Dancing Script';
@@ -12,33 +50,14 @@ div.Titulo{
     font-size: 200px;
 }
 
-nav{
+.separador{
     background-color: rgb(224, 0, 0);
-    color: wheat;
+    color: white;
     width: 90%;
     padding: 2px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-nav ul{
-    list-style: none;
-    overflow: hidden;
-}
-
-nav li{
-    display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-li{
-    width: 100%;
-    height: 100%;
-}
-
-nav li:hover{
-    background-color: rgb(190, 0, 0);
 }
 
 main{
@@ -69,16 +88,73 @@ main{
     margin-bottom: 20px;
 }
 
+#urbano{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#renfe{
+    float: right;
+    margin-left: 10px;
+    height: 300px;
+}
+
 .cultura{
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
 }
 
+#laboral{
+    float: left;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
 .fiestas{
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
+}
+
+#antroxu{
+    float: right;
+    margin-left: 10px;
+    height: 300px;
+}
+
+#sidra{
+    float: left;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.botanico{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contacto{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    display: inline-block;
+    width: 100%;
+}
+
+#mensaje{
+    height: 300px;
+    width: 70%;
 }
 
 article{
