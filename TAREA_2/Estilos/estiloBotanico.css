@@ -1,0 +1,80 @@
+nav{
+    font-family: 'Raleway';
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+  
+nav ul{
+    list-style: none;
+    width: 90%;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 10%;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+  
+.nav-lista li a:hover {
+    color: black;
+}
+
+.nav_fondo {
+    background-color: green;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+header {
+    background-image: url("../Imagenes/botanico.png");
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script';
+    color: rgb(197, 0, 0);
+}
+
+div.Titulo{
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    height: 450px;
+    font-size: 200px;
+}
+
+.separador{
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 2px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+.titulo1{
+    font-size: 30px;
+    font-family: 'Raleway';
+    margin-bottom: 10px;
+}
+
+.titulo2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
