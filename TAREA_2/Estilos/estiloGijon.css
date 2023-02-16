@@ -3,15 +3,12 @@ nav{
 }
 
 nav ul {
-    width: 50%;
     display: flex;
-    margin: auto;
+    text-align: center;
     padding: 10px;
-}
-  
-nav ul{
     list-style: none;
-    width: 90%;
+    width: 100%;
+    margin: auto;
 }
 
 nav li {
@@ -22,10 +19,6 @@ nav li {
 nav li a {
     text-decoration: none;
     color: white;
-}
-  
-.nav-lista li a:hover {
-    color: black;
 }
 
 .nav_fondo {
@@ -39,7 +32,7 @@ nav li a {
 header {
     background-image: url("../Imagenes/header.png");
     font-family: 'Dancing Script';
-    color: rgb(139, 8, 8);
+    color: rgb(103, 12, 12);
 }
 
 div.Titulo{

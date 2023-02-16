@@ -3,15 +3,12 @@ nav{
 }
 
 nav ul {
-    width: 50%;
     display: flex;
-    margin: auto;
+    text-align: center;
     padding: 10px;
-}
-  
-nav ul{
     list-style: none;
-    width: 90%;
+    width: 100%;
+    margin: auto;
 }
 
 nav li {
@@ -23,10 +20,6 @@ nav li a {
     text-decoration: none;
     color: white;
 }
-  
-.nav-lista li a:hover {
-    color: black;
-}
 
 .nav_fondo {
     background-color: green;
@@ -37,10 +30,10 @@ nav li a {
 }
 
 header {
-    background-image: url("../Imagenes/botanico.png");
+    background-image: url("../Imagenes/botanico-gijon.png");
     background-repeat: no-repeat;
     font-family: 'Dancing Script';
-    color: rgb(197, 0, 0);
+    color: rgb(139, 8, 8);
 }
 
 div.Titulo{
@@ -77,4 +70,28 @@ main{
     font-size: 20px;
     font-weight: 700;
     font-family: 'Raleway';
+}
+
+.texto{
+    font-family: 'Open Sans', serif;
+}
+
+#horario{
+    float: right;
+}
+
+#horario table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#horario tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#horario td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 4px;
 }
