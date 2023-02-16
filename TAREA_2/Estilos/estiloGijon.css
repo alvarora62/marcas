@@ -153,3 +153,21 @@ fieldset{
 article{
     margin-bottom: 15px;
 }
+
+#subir img{
+    width: 16px;
+    height: 16px;
+    position: fixed;
+    top: 95%;
+}
+
+footer{
+    margin-top: 25px;
+    height: 200px;
+    background-color: rgb(224, 0, 0);
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+}
