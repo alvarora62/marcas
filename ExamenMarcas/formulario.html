@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Examen</title>
+    <link rel="stylesheet" href="estiloExamen.css">
+</head>
+
+<body>
+
+    <header>Inscripcion curso</header>
+
+    <section>
+    <form action="salida.php" method="get">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            Apellidos:
+            <input type="text" name="Apellidos" size="40">
+            Nombre:
+            <input type="text" name="Nombre"><br>
+            DNI:
+            <input type="text" name="DNI" size="9">
+            Edad: 
+            <input type="text" name="edad" size="4">
+            Sexo:
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="Mujer" name="sexo" value="Mujer">
+                <label for="Mujer">Mujer</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos complementarios</legend>
+            <div class="detalles_1">
+            Nacido en:<br>
+            <input type="text" name="nacido"></div>
+            <div class="detalles_1" id="provincia">
+            Provincia:<br>
+            <select name="provincia">
+                <option value="Valencia" selected>Valencia</option>
+                <option value="A coruña">A Coruña</option>
+                <option value="Leon">Leon</option>
+            </select>
+            </div>
+            <div class="detalles_1">
+            Fecha de Nacimiento:<br>
+            <input type="date" name="fecha" id="fecha"></div>
+            <br>
+            <div class="detalles_2">
+
+                <div id="domicilio">Domicilio:</div>
+                <select name="domicilio_tipo">
+                    <option value="Calle">Calle</option>
+                    <option value="Avenida">Avenida</option>
+                </select>
+                <input type="text" name="nombre_calle" size="58">
+
+                <div class="codigo_postal">
+
+                    Codigo Postal:<br>
+                    <input type="text" name="codigoPostal" size="5">
+                </div>
+            </div>
+        </fieldset>
+
+        <div class="botones">
+            <button type="reset">Borrar todo</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </section>
+    <section id="datos_pers">
+        (*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento por la Consejeria de Cultura y Educación.
+    </section>
+
+    <footer>
+        Consejeria de educacion principado de asturias.
+    </footer>
+
+
+</body>
+
+</html>

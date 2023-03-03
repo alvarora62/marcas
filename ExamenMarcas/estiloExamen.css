@@ -1,0 +1,103 @@
+header{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: #f0d2f6;
+    margin-bottom: 20px;
+}
+
+form{
+    margin: auto;
+    width: 96%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+fieldset{
+    background-image: url(fondo.jpg);
+    width: 46%;
+    padding-left: 15px;
+    float: left;
+}
+
+legend{
+    border: 2px solid black;
+}
+
+input{
+    margin: 5px;
+}
+
+.botones{
+    margin-top: 15px;
+    margin-left: 45%;
+    display: inline-block;
+}
+
+.detalles_1{
+    display: inline-block;
+}
+
+#provincia{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.detalles_2{
+    display: inline-block;
+}
+
+.codigo_postal{
+    display: inline-block;
+    padding: 0px;
+}
+
+#domicilio{
+    padding: 0px;
+    width: fit-content;
+}
+
+#datos_pers{
+    border: 2px solid black;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+footer{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#fecha{
+    width: 150px;
+}
+
+td{
+    border: 2px solid rgb(200, 2, 226);
+    border-collapse: collapse;
+    width: 100px;
+    padding: 4px;
+}
+
+table{
+    margin-left: 50px;
+    border: 2px solid rgb(200, 2, 226)s;
+    border-collapse: collapse;
+}
+
+.encabezado{
+    font-weight: bold;
+}
+
+#salida{
+    width: 100% !important;
+    margin: 15px;
+}
